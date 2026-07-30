@@ -1,0 +1,150 @@
+.about-top {
+  margin-bottom: 30px;
+
+  .about-subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222;
+    margin-bottom: 10px;
+  }
+
+  .about-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    text-align: center;
+    color: #161d2f;
+    max-width: 445px;
+    margin: 0 auto;
+
+    display: flex;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 71px;
+      height: 60px;
+      background-image: url(../image/quotes.svg);
+      background-repeat: no-repeat;
+
+      position: absolute;
+      top: -30px;
+      left: -95px;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 71px;
+      height: 60px;
+      transform: scaleX(-1);
+      background-image: url(../image/quotes.svg);
+      background-repeat: no-repeat;
+
+      position: absolute;
+      top: -30px;
+      right: -95px;
+    }
+  }
+}
+
+// about-middle
+
+.ab-md-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+
+  margin-bottom: 50px;
+
+  .ab-md-item {
+    width: 255px;
+    text-align: center;
+  }
+
+  .ab-md-info {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.33;
+    text-align: center;
+    color: #161d2f;
+  }
+
+  .ab-md-descr {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    color: #161d2f;
+  }
+
+  .ab-md-item:nth-child(2) {
+    width: 285px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      height: 100%;
+      border-left: 1px solid #161d2f;
+      opacity: 0.4;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      height: 100%;
+      border-right: 1px solid #161d2f;
+      opacity: 0.4;
+    }
+  }
+}
+
+// about-bottom
+
+.ab-bt-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  .ab-bt-item {
+    width: calc((100% - 30px) / 2);
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+
+    .ab-icon-box {
+      width: 70px;
+      height: 70px;
+      background-color: #c2d8fe;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      border-radius: 50%;
+    }
+
+    .ab-bt-title {
+      font-weight: 600;
+      font-size: 28px;
+      text-transform: capitalize;
+      color: #161d2f;
+      margin-bottom: 5px;
+    }
+
+    .ab-bt-descr {
+      font-weight: 300;
+      line-height: 1.9;
+      text-transform: capitalize;
+      color: #222;
+    }
+  }
+}

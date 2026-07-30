@@ -1,0 +1,79 @@
+.sta-container {
+  background: #161d2f;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  border-radius: 20px;
+
+  .cta-box-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 571px;
+
+    .cta-form {
+      width: 474px;
+      display: flex;
+      column-gap: 30px;
+    }
+  }
+
+  .cta-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.35;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+
+  .cta-f-input {
+    border: 1px solid #fff;
+    border-radius: 34px;
+    width: 283px;
+    background-color: transparent;
+    outline: none;
+    padding: 16px 24px;
+    color: #fff;
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 16px;
+      text-transform: capitalize;
+      color: currentColor;
+    }
+  }
+}
+
+.cta-content {
+  position: relative;
+  min-width: 286px;
+  min-height: 306px;
+
+  .cta-picture {
+    border-radius: 8px;
+  }
+
+  .cta-picture:first-child {
+    position: absolute;
+    top: 20px;
+    left: 0;
+  }
+
+  .cta-picture:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .cta-picture:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .cta-picture:last-child {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+  }
+}

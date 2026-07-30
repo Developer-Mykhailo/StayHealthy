@@ -1,0 +1,112 @@
+.price.section {
+  padding-bottom: 0;
+  margin-bottom: 470px;
+}
+
+.price {
+  height: 560px;
+  background: linear-gradient(90deg, #09203f 0%, #161d2f 100%);
+}
+
+.price-subtitle {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.price-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  text-align: center;
+  max-width: 489px;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.pr-list {
+  min-height: 682px;
+  display: flex;
+  gap: 30px;
+}
+
+.pr-item-card {
+  border: 1px solid #fff;
+  border-radius: 35px;
+  width: 350px;
+  height: 682px;
+  padding: 35px 37px 30px;
+  box-shadow: 0 16px 35px 0 rgba(112, 144, 176, 0.2);
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pr-card-title {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: #161d2f;
+}
+
+.pr-card-picture {
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.pr-card-name {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+// ---
+.pr-card-advantage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: auto;
+}
+
+.ad-item {
+  font-weight: 300;
+  font-size: 18px;
+  color: #222;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ad-item::before {
+  content: "";
+  display: block;
+  background-image: url(../image/check.svg);
+  width: 24px;
+  height: 24px;
+}
+
+// ---
+
+.pr-card-price {
+  font-weight: 300;
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 30px;
+
+  & > strong {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5;
+    color: #161d2f;
+  }
+}
+
+//

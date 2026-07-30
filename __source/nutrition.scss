@@ -1,0 +1,93 @@
+.nutrition-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nutr-pict-box {
+  position: relative;
+  width: 605px;
+  height: 484px;
+}
+
+.nutr-pict-el {
+  width: 200px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.15);
+  background: #161d2f;
+  border-radius: 10px;
+
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+
+  z-index: 1;
+}
+
+.nutr-image {
+  border-radius: 10px;
+}
+
+.nutr-pict-el + .nutr-image {
+  position: absolute;
+  top: 0;
+  right: 33px;
+  z-index: -1;
+}
+
+.nutr-image + .nutr-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.nutr-image + .nutr-pict-el {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.nutr-content {
+  max-width: 455px;
+}
+
+// nutr-subtitle
+
+.nutr-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.nutr-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #161d2f;
+  margin-bottom: 10px;
+}
+
+.nutr-descr {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 2;
+  text-transform: capitalize;
+  color: #222;
+  margin-bottom: 30px;
+
+  & strong {
+    font-weight: 500;
+    color: #161d2f;
+  }
+}

@@ -1,0 +1,89 @@
+.program-subtitle {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+.program-title {
+  max-width: 590px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.program-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.arrow-btn-right {
+  transform: scaleX(-1);
+}
+
+.program-list {
+  max-width: 1110px;
+
+  display: flex;
+  gap: 40px;
+}
+
+.program-item {
+  width: 350px;
+}
+
+.pr-item-picture {
+  border-radius: 10px;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.pr-item-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #222;
+}
+
+.pr-item-sub {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.pr-item-descr {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.85714;
+  color: #4b4b4b;
+  margin-bottom: 20px;
+}
+
+.pr-item-link {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #3043a9;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  transition: all 0.25s ease-in-out;
+
+  .icon-small-arrow {
+    fill: currentColor;
+  }
+
+  &:hover {
+    scale: 1.02;
+  }
+}
