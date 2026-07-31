@@ -7,7 +7,7 @@ A responsive landing page for a fictional fitness platform promoting workout pro
 
 ## Live Demo
 
-**Demo:** https://stay-healthy-three.vercel.app/
+**Demo:** https://developer-mykhailo.github.io/StayHealthy/
 
 ## Overview
 
